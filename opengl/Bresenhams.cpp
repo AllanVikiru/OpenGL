@@ -1,9 +1,9 @@
 /*
 
 Bresenham's Line Algorithm using OpenGL
-	 by Joan Ndung'u, Allan Vikiru and Kelsey Makale
+	 by Joan Ndung'u - 100388, Allan Vikiru - 098587 and Kelsey Makale - 100052
 
-*/
+
 
 #include <gl/glut.h> //import GL library
 #include <stdio.h> //import standard input/output header
@@ -13,7 +13,7 @@ int x1, y1, x2, y2; // initialize x and y co-ordinates for start and end points
 void init() {
 	glClear(GL_COLOR_BUFFER_BIT); //empty colour buffer
 	glClearColor(0.0, 0.0, 0.0, 1.0); //define background colour to black and opaque
-	gluOrtho2D(0, 300, 0, 300); //define Cartesian coordinates
+	gluOrtho2D(0, 100, 0, 100); //define Cartesian coordinates
 
 }
 void points(int x, int y) { // function for drawing points on the line
@@ -34,6 +34,7 @@ void line(int x1, int x2, int y1, int y2) { // function for computing points
 
 	if (dx < 0) dx = -dx; //set dx to -dx if change in x is less than 0 
 	if (dy < 0) dy = -dy;// set dy to -dy of change in y is less than 0
+
 	incx = 1; // set incremental value of x to 1
 
 	if (x2 < x1)// if end point x is less than start point x
@@ -45,6 +46,7 @@ void line(int x1, int x2, int y1, int y2) { // function for computing points
 
 	x = x1;  //set point x to start point x
 	y = y1; // set point y to start point y
+	
 
 	if (dx > dy) { //if change in x is greater than change in y i.e. gradient m is greater than 1
 		points(x, y); // plot point with co-ordinates x,y
@@ -108,3 +110,4 @@ int main(int argc, char** argv) {
 	glutMainLoop(); // enter event processing loop
 
 }
+*/

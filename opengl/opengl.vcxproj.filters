@@ -39,5 +39,8 @@
     <ClCompile Include="Bresenhams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Midpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

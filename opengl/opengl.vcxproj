@@ -125,6 +125,7 @@
     <ClCompile Include="Circles.cpp" />
     <ClCompile Include="House.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Midpoint.cpp" />
     <ClCompile Include="MySkinMyLogo.cpp" />
     <ClCompile Include="MySquare.cpp" />
     <ClCompile Include="MySquareAndTriangle.cpp" />
