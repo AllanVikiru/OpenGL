@@ -1,7 +1,7 @@
 /*
 Midpoint Circle Algorithm using OpenGL
 	 by Joan Ndung'u - 100388, Allan Vikiru - 098587 and Kelsey Makale - 100052
-*/
+
 
 #include <stdio.h> // import standard input/output header
 #include <iostream> // import I/0 library
@@ -79,3 +79,4 @@ void main(int argc, char** argv)
 	glutMainLoop(); // enter event processing loop
 
 }
+*/

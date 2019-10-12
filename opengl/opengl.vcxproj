@@ -129,6 +129,8 @@
     <ClCompile Include="MySkinMyLogo.cpp" />
     <ClCompile Include="MySquare.cpp" />
     <ClCompile Include="MySquareAndTriangle.cpp" />
+    <ClCompile Include="Rotation.cpp" />
+    <ClCompile Include="Translation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
