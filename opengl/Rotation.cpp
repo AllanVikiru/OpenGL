@@ -1,4 +1,4 @@
-//Rotation of a Line Segement 
+/* Rotation of a Line Segement 
 #include <GL/glut.h>
 
 void init()
@@ -45,3 +45,4 @@ void main(int argc, char** argv)
 	glutDisplayFunc(rotate); // run rotate()
 	glutMainLoop();//enter the event processing loop
 }
+*/

@@ -123,6 +123,7 @@
     <ClCompile Include="Arc.cpp" />
     <ClCompile Include="Bresenhams.cpp" />
     <ClCompile Include="Circles.cpp" />
+    <ClCompile Include="CohenSutherland.cpp" />
     <ClCompile Include="House.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Midpoint.cpp" />
