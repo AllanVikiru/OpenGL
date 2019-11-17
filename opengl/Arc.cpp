@@ -1,4 +1,4 @@
-/*#include <Windows.h>
+#include <Windows.h>
 #include <GL/glut.h>
 #include <math.h>
 
@@ -30,4 +30,3 @@ int main(int argc, char**argv) {
 	glutDisplayFunc(MyArc);
 	glutMainLoop();//enter the event processing loop 
 }
-*/
