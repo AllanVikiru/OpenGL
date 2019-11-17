@@ -1,4 +1,4 @@
-/*#include <GL/glut.h>
+#include <GL/glut.h>
 #include <math.h>
 
 void init()
@@ -101,4 +101,4 @@ void main(int argc, char**argv)
 	init();
 	glutDisplayFunc(MyHouse);
 	glutMainLoop();//enter the event processing loop 
-}*/
+}
