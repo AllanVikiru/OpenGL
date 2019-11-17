@@ -1,4 +1,4 @@
-/*#include <GL/glut.h>
+#include <GL/glut.h>
 #include <math.h>
 
 
@@ -59,4 +59,4 @@ void main(int argc, char**argv)
 	glutDisplayFunc(MyCircles);
 	glutMainLoop();//enter the event processing loop 
 }
-*/
+
