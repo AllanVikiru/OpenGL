@@ -1,4 +1,4 @@
-/*#include <Windows.h>
+#include <Windows.h>
 #include <GL/glut.h>
 #include <math.h>
 void init() {
@@ -24,4 +24,4 @@ int main(int argc, char**argv) {
 	init();
 	glutDisplayFunc(MySquare);
 	glutMainLoop();//enter the event processing loop 
-}*/
+}
