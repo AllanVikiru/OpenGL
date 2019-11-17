@@ -1,4 +1,4 @@
-/* Translation of a Line Segement
+// Translation of a Line Segement
 #include <GL/glut.h>
 
 void init()
@@ -43,4 +43,3 @@ void main(int argc, char**argv)
 	glutDisplayFunc(translate); // run translate ()
 	glutMainLoop();//enter the event processing loop
 }
-*/
