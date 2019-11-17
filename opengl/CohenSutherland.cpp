@@ -1,6 +1,5 @@
 /*
 Cohen Sutherland's Line Clipping Algorithm using OpenGL
-by Allan Vikiru - 98587; Stephen Wanyee - 100565; Nicole Muswanya - 101112; Daniel Olamide - 102214
 */
 
 //include I/O libraries and GLUT
