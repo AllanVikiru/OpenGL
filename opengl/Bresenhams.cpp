@@ -1,7 +1,7 @@
 /*
 
 Bresenham's Line Algorithm using OpenGL
-	 by Joan Ndung'u - 100388, Allan Vikiru - 098587 and Kelsey Makale - 100052
+*/
 
 
 
@@ -110,4 +110,3 @@ int main(int argc, char** argv) {
 	glutMainLoop(); // enter event processing loop
 
 }
-*/
